@@ -1,0 +1,107 @@
+@charset "utf-8";
+/* CSS Document */
+body{margin: 0}
+.main {
+  padding: 16px;
+  margin-top: 30px;
+  height: 1500px;
+}
+header{width: 100%; height: 60px; background-color: #EFEFEF;  
+	overflow: hidden; position: fixed; top: 0; z-index: 99}
+.menu{padding: 7px;}
+.logo{width: 50%; padding: 7px; align-content: center}
+.menu ul {margin: 0; padding: 0; list-style: none; display: flex; justify-content: center}
+
+.menu ul li a {text-decoration: none; color: grey; padding: 10px 20px}
+.menu ul li a:hover{color: chocolate}
+.menu-button{display: flex; justify-content: flex-end;}
+.pyright-25px{padding-right: 25px}
+
+.menu-button ul{margin: 0; padding: 0; list-style: none; display: flex; justify-content: flex-start}
+.menu-button ul li a{padding: 10px 15px}
+
+.banner{width: 100%; min-height: 500px}
+/*slider*/
+#slide .owl-dots{ position:absolute; bottom: 10px; left:45%;}
+#slide .owl-dots .owl-dot span {width: 12px; height: 12px}
+
+#slide .owl-nav { position:absolute; left:0px; top:40%; width:100%; }
+#slide .owl-nav [class*='owl-'] {font-size:60px; /*background:rgba(255,255,255,.5);border:1px solid #fff; */ color: white}
+
+#slide .owl-nav .owl-next{ position:absolute; right:5%;}
+#slide .owl-nav .owl-prev{ position:absolute; left:5%;}
+#slide .owl-nav [class*='owl-']:hover {
+      background:none;border: none;
+      color:darkred;
+      text-decoration: none; }
+
+.section-title{text-align: center}
+.underline{border-bottom: solid #8B0000 2px}
+.price{color: #9B0002}
+.border{width:100%; border: 2px solid darkred; padding: 5px 10px; position: relative; overflow: hidden}
+.product-quick-button{ position: absolute; width: 80%; height: 40px; left: 10%; top:-15%; display: flex; justify-content: space-around}
+.product-quick-button a {width:40px; height: 40px; text-decoration: none; background-color: darkred; color: white; border-radius: 50px; display: flex; align-items: center; justify-content: center}
+.product-quick-button a:hover {background-color: white; color: darkred}
+.border:hover .product-quick-button{top: 35%; transition: all 0.5s}
+
+.banner1{width: 100%; min-height: 900px; background-image: url("../images/bg2.png"); background-repeat: no-repeat; background-size: cover; background-position: bottom center; background-size: cover}
+.section-title1{width: 30; display: flex; justify-content: center; padding-top: 50px}
+
+.content-box{width: 100%; height: 150px; border: 2px solid white; padding: 20px; }
+.content-title{text-align: center; color: darkred; display: flex; flex-direction: column; justify-content: space-around}
+.content-title a{text-decoration: none; color: darkred}
+.content-title a:hover {background-color: darkred; color: white; border-radius: 10px}
+
+.blog-description{color: darkred; text-align: center; display: flex; justify-content: center}
+.sub-box{width: 40%}
+.blog-content1{display: flex; flex-direction: column; justify-content: center; align-items: center}
+.contact-section{width: 100%; min-height: 400px; background-image: url("../images/Banner-shop.png"); background-repeat: no-repeat; background-size: cover; background-position: center center; background-size: cover}
+.contact-title{text-align: center}
+.contact{width: 100%; display: flex; flex-direction: column; margin-top: 30px;
+	padding: 20px 40px;
+	box-shadow: 4px 3px 15px  #848484}
+.form-control{padding: 10px; margin: 5px; width: 100%; border: #CCCCCC 0.7px solid}
+.button{background-color:#E35B00; color: aliceblue; width: 25%; padding: 5px; border-radius: 2px; border: none}
+.button:hover{background-color: #C50105; cursor: pointer}
+select{width:100%; height: 40px; padding: 10px; margin: 5px; width: 100%; border: #CCCCCC1px solid}
+textarea{padding: 10px; margin: 5px; width: 100%; border: #CCCCCC1px solid}
+
+.accordion {
+margin-bottom: 10px;
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  transition: 0.4s;
+
+}
+.accordion:after {
+  content: '\02795'; /* Unicode character for "plus" sign (+) */
+  font-size: 13px;
+  color: #777;
+  float: right;
+  margin-left: 5px;
+}
+.panel {
+  padding: 0 18px;
+  background-color: white;
+  max-height: 0;
+  overflow: hidden;
+	transition: max-height 0.2s ease-out;}
+
+
+footer{width: 100%; min-height: 300px; background-color: #EFEFEF; padding: 60px 0; margin-top: 30px}
+.footer-content ul {margin: 0; padding: 0; list-style: none; display: flex; flex-direction: column}
+.footer-content ul li a {text-decoration: none; color: grey; padding: 7px; display: block}
+.footer-content ul li a:hover {color: chocolate}
+.subscribe{width: 100%}
+.subscribe a{color: grey}
+.subscribe a:hover {color: chocolate}
+.logofooter{width:60%}
+.subscribe-email{width: 100%; height: 30px; border: none; background-color: transparent; border-bottom: #4D4D4D 0.7px solid; margin-bottom: 30px}
+.footer-content{width:100%; padding-left:100px  }
